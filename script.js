@@ -1,12 +1,27 @@
-var targetDiv = document.getElementById("empty-div");
+function validateform (){
+var name = document.forms["formIdentifier"]["nameInput"].value
+if (name == ""){
 
-      targetDiv.textContent = "Hello friends!";
 
-      // In this example, we instead create a new div called "newDiv".
-      var newDiv = document.createElement("div");
+alert("Name is required field.")
+return false;
 
-      // We then give this newDiv the text "A pleasure to meet you!".
-      newDiv.textContent = "A pleasure to meet you!";
+}
+var email = document.forms["formIdentifier"]["emailInput"].value
+if (email == ""){
 
-      // Now we use the ".appendChild" method to combine the two divs together on the page.
-      targetDiv.appendChild(newDiv);
+    alert("Email is a required field.")
+    return false;
+}
+
+var comment = document.forms["formIdentifier"]["commentInput"].value
+if (comment == ""){
+
+    alert("Comment is a required field.")
+    return false;
+}
+alert ("Thank you for visiting, please come visit again soon!")
+return true;
+}
+
+

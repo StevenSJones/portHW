@@ -33,8 +33,12 @@
     ></script>
     <meta name="theme-color" content="#563d7c" />
     <!--the title appears on the tab in the browser of your choosing-->
+    <script src="script.js"></script>
+
     <title>Contact</title>
+
   </head>
+
   <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="leftWhite"></div>
@@ -119,9 +123,11 @@
       <hr width="50%" ; />
 
       <div class="col-md-4; p-3 mb-2 bg-primary text-white">
-        <form>
+        <form id="formIdentifier" method="POST">
           <h4>Name</h4>
+          <!--nameInput needs to be added-->
           <input
+            id="nameInput"
             type="text"
             name="Name"
             placeholder="Please type your name..."
@@ -129,7 +135,9 @@
           <br />
           <hr width="10%" color="white" ; />
           <h4>Email</h4>
+          <!--emailInput needs to be added-->
           <input
+            id="emailInput"
             type="text"
             name="Email"
             placeholder="Please type your email..."
@@ -137,24 +145,37 @@
           <br />
           <hr width="10%" color="white" ; />
           <h4>Message</h4>
+          <!--commentInput needs to be added-->
           <input
+            id="commentInput"
             type="text"
             name="Comment"
             placeholder="Please type your comment..."
           /><br /><br />
           <br />
           <hr width="10%" color="white" ; />
-        </form>
 
-        <button id="" type="button" onclick="alert('Submitted!')">submit</button
-        ><!--this is the submit button-->
+          <!-- composeEmail id needs to be added to css -->
+          <button
+            id="composeEmail"
+            type="button"
+            onclick="return validateform()"
+          >
+            submit</button
+          ><!--this is the submit button-->
+        </form>
       </div>
+    </div>
+    <!-- populationDiv -->
+    <div class="populationDiv">
+      <!-- append user input -->
     </div>
 
     <footer class="footer mt-auto py-3 bg-dark">
       <div class="container d-flex justify-content-center">
         <!--sticky footer-->
-        <span align="center" ; class="text-muted">&copy; Steven Jones 2020</span><!--&copy is used to create the copywrite symbol-->
+        <span align="center" ; class="text-muted">&copy; Steven Jones 2020</span
+        ><!--&copy is used to create the copywrite symbol-->
       </div>
     </footer>
   </body>
