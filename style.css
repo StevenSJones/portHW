@@ -8,6 +8,10 @@
   margin: 0 0 20px 0;
 }
 
+html {
+  border-color: darkgray;
+}
+
 q {
   font-family: parkavenue, cursive, serif;
 }
@@ -53,3 +57,5 @@ q {
   width: 960px;
   margin: auto;
 }
+
+
