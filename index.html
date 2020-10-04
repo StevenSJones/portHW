@@ -55,11 +55,19 @@
         </div>
       </nav>
     
-      <main align="center" class= "indexmain dub-border outline-primary"role="main">
 
-        <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron">
-          <div class="container">
+
+
+
+
+
+
+
+<div class="container">
+  <div>
+      <div align="center" class= "indexmain dub-border outline-primary"role="main">
+      
+        <div class="jumbotron card border-primary mb-4" style="max-width: 100%">
             <h1 class="display-3">Steven Jones' Web Dev. Portfolio...</h1>
             <p>I am Steven Jones. This site was created to introduce myself (Hello World!) and to showcase what I have learned and what I have used to procure the knowledge garnered while studying web development at the University of Arizona. In the top nav bar you will see that I have a dropdown that contains links to my Github and LinkedIn profiles as well as a link to my resume and the subsequent pages of the assignment.
             </p>
@@ -67,16 +75,20 @@
             </p>
             <!-- On computer screens, sans-serif fonts are considered easier to read than serif fonts. -->
             <q class="text-muted">As an unremitting scholar, I am perpetually in search of ways to acquire and implement novel technologies.</q>
-          </div>
         </div>
+      </div>
+    </div>
       
-        <h1>The coding components that I have learned thus far:</h1>
-        <div align="center" class="container d-flex justify-content-around">
+      <div class="row">
+        <div class="col">
+          <div align="center" class="container d-flex justify-content-around">
+            <div class="card border-primary mb-4" style="max-width: 100%">
+            <h1>The coding components that I have learned thus far:</h1>
           
           <!-- Example row of columns -->
           <div class="card-deck">
 
-            <div class="card border-primary mb-4" style="max-width: 18rem;">
+            <div class="card border-primary mb-4" style="max-width: 100%">
               <div class="card-header bg-transparent border-primary">HTML</div>
               <div class="card-body text-secondary">
                 <h5 class="card-title"> Hyper-text-markup-language;</h5>
@@ -84,7 +96,7 @@
               </div>
             </div>
 
-            <div class="card border-secondary mb-4" style="max-width: 18rem;">
+            <div class="card border-primary mb-4" style="max-width: 100%;">
               <div class="card-header bg-transparent border-secondary">CSS</div>
               <div class="card-body text-primary">
                 <h5 class="card-title">Cascading Style Sheets;</h5>
@@ -101,16 +113,17 @@
                 </p>
               </div>
             </div>
-
-          </div><!-- /container -->
+          </div>
+          </div>
       
-      </main>
-      <div align="center">
-        <div class="jumbotron">
-        <!--HTML includes six levels of headings that are ranked according to importance h1-h6-->
-        <!--One shouldn't use headings for anyother reason than to index the web page, as that is what search engines do-->
-    
-        <!--I align centered the div so the contents in the divs were centered-->
+        </div>
+      </div>
+    </div>
+      
+
+
+
+      <div class="jumbotron" align="center">
         <div class="container">
           <h2 class="text-center display-3">Resources used during my coding Journey</h2>
 
@@ -143,16 +156,18 @@
             </div>
             <hr width="50%"/> <!--the break Has to be inside the container so that the %50 is applied to the container width and NOT the page width. Those are different values-->
           </div>
-        </div> <!-- /container -->
+        </div> 
         </div>
         
-        <div>
+        
+        
+        <div class="col text-center" align="center">
           <h1 class="text-center display-3">Projects:</h1>
           <hr width="50%"/>
           <p>Below I have pictures of three coding works that I have completed that I would like to share. Navigate to my github repo above and view these and other works by me.</p>
-
+          
           <hr width="25%"/>
-
+          
           <p>√ - Project 1 allows the user to look up city information using API calls. Perhaps you are visiting a new city and would like to know a few of the activities in the area that weekend then this app is for you.</p>
           <p><a class="btn btn-outline-primary" target="_blank" href="https://jmuncrief.github.io/p1_location_info/" role="button"> Project 1 &raquo;</a></p>
           
@@ -160,16 +175,19 @@
           
           <p>√ - The Burger App allows you to choose from the burgers listed. You can then save or devour the burger.</p>
           <p><a class="btn btn-outline-primary" target="_blank" href="https://intense-castle-15409.herokuapp.com/" role="button"> The Burger App &raquo;</a></p>
-
+          
           <hr width="25%"/>
-
+          
           <p>√ - The Code Quiz tests the users knowledge with a series of questions. Answer correctly and proceed, but miss a question and you will lose time!</p>
           <p><a class="btn btn-outline-primary" target="_blank" href="https://stevensjones.github.io/codeQuizFourthEdition/
             " role="button"> The Code Quiz &raquo;</a></p>
-
-        <hr width="25%"/>
-
+            
+            <hr width="25%"/>
+            
+          </div>
+        </div><!-- /container -->
         <!--A carousel for the screenshots to the three  assignments that i have included-->
+        <div class="col" align="center">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -195,8 +213,10 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-        </div>
       </div>
+</div>
+   
+
 
       <footer class="footer mt-auto py-3 bg-dark">
         <div class="container d-flex justify-content-center"><!--sticky footer-->
