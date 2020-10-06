@@ -1,8 +1,7 @@
 html {
-  border-color: darkgray;
   margin: auto;
   border: 20rem;
-  margin-top: 7rem
+  margin-top: 7rem;
 }
 
 q {
@@ -20,14 +19,13 @@ q {
 }
 
 .rotateimg90 {
-  -webkit-transform:rotate(90deg);
+  -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
-/* checked */
 .dub-border {
   border-style: double;
 }
@@ -66,5 +64,3 @@ q {
   width: 960px;
   margin: auto;
 }
-
-
