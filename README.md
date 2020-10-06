@@ -1,79 +1,99 @@
-Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
-Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application.
+# Unit 20 React Homework: React Portfolio
 
-Directions
-First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
+Now that you've worked with React and have multiple projects to share, you'll be updating your portfolio and other materials to build toward being employer competitive. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
 
-Create the following files files: index.html, portfolio.html and contact.html.
+If you are opting out of career services, this is *still a required assignment*. Part of being a web developer means being a part of a community. Having a place to share your projects is *necessary* if you're applying for jobs, but is still *critical* on your journey as a developer.
 
-Using Bootstrap, develop your portfolio site with the following items:
+## Requirements
 
-A navbar
+* Updated portfolio featuring 6 total projects
 
-A responsive layout
+* Use React
 
-Responsive images
+* A `Header` component that appears on multiple pages
 
-The Bootstrap portfolio should minimize the use of media queries.
+* A single `Project` component that will be used multiple times on a single page 
 
-Screenshots are provided as a reference in the Assets/Images folder. Your app does not need to be exactly like the images. Use Bootstrap to create a similar, responsive layout.
+* Navigation with React Router, dynamic rendering, or another third part router
 
-Hints
+* A `Footer` component that appears on multiple pages
 
-Use Bootstrap's grid system (containers, rows, and columns).
+* Update GitHub profile with pinned repositories featuring those same projects
 
-On an xs screen, content should take up the entire screen. On sm and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
+* Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
 
-Use an HTML validation service to ensure that each page has valid HTML.
+## Grading
 
-Minimum Requirements
+| Requirement    | Weight |
+| -------------- | ------ |
+| Portfolio      | 90%    |
+| GitHub Profile | 10%    |
 
-Functional, deployed application
 
-GitHub repository with README describing the project
+## Instructions
 
-Navbar must be consistent on each page.
+* [Updated Portfolio](#updated-portfolio)
 
-Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
+* [Design](#design)
 
-All links must work.
+* [React](#react)
 
-Must use semantic html.
+* [Updated LinkedIn Profile](#updated-linkedin-profile)
 
-Each page must have valid and correct HTML. (use a validation service)
+### Updated Portfolio
 
-Must contain your personalized information. (bio, name, images, links to social media, etc.)
+Your updated site should still have all of the content it previously had:
 
-Must properly utilize Bootstrap components and grid system.
+* Your name
 
-Bonus
+* Links to your GitHub profile & LinkedIn page as well as your email address and phone number
 
-Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (Hint: Check out the Bootstrap documentation).
+* A link to a PDF of your resume with updated projects
 
-Commit Early and Often
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+* A list of projects. For each project, make sure you have the following:
 
-Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+  * Project title
 
-Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
+  * Link to the deployed version
 
-Follow these guidelines for committing:
+  * Link to the GitHub repository
 
-Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
+  * GIF or screenshot of the deployed application
 
-Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
 
-Don't commit half-done work, for the sake of your collaborators (and your future self!).
+#### Design
 
-Test your application before you commit to ensure functionality at every step in the development process.
+As with the previous portfolio homework, "good" design is subjective. Your site should look
+"polished." Here are a few guidelines on what that means:
 
-We would like you to have well over 200 commits by graduation, so commit early and often!
+* Mobile-first design
 
-Submission on BCS
-You are required to submit the following:
+* Choose a color palette for your site so it doesn't just look like
+the default bootstrap theme or an unstyled HTML site. You may we
 
-The URLs of the deployed applications
+* Make sure the font size is large enough to read, and that the colors don't cause eye strain.
 
-The URLs of the GitHub repositories
+* If you want to go above and beyond, try using animations and react component libraries. Note 
+that this will _not_ affect your grade, but it may impact how potentials employers gauge your knowledge.
 
+### React
+
+Additionally, this new portfolio should be created using React.
+
+At a minimum, your portfolio should include the following:
+
+* A `Header` component that appears on multiple pages
+
+* A single `Project` component that will be used multiple times on a single page 
+
+* Navigation with React Router, dynamic rendering, or another third part router
+
+* A `Footer` component that appears on multiple pages
+
+
+### Updated LinkedIn Profile 
+
+Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
+
+- - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
