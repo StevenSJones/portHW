@@ -10,7 +10,18 @@ q {
 
 .text-shadow-dark {
 text-shadow: 4px 4px #a0929b;
-  font-size: 30rem;
+}
+
+.text-shadow-dark-card {
+  text-shadow: 2px 2px #a0929b;
+  padding: 5px;
+}
+
+.box-shadow-grey {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 2px 4px 12px 0px;
+  max-width: 100%;
+  padding: 30px 40px;
 }
 
 .indexmain,
