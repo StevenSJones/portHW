@@ -8,6 +8,11 @@ q {
   font-family: parkavenue, cursive, serif;
 }
 
+.text-shadow-dark {
+text-shadow: 4px 4px #a0929b;
+  font-size: 30rem;
+}
+
 .indexmain,
 .contactmain,
 .gallerymain {
