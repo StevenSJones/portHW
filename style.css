@@ -8,8 +8,15 @@ q {
   font-family: parkavenue, cursive, serif;
 }
 
+.item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+
 .text-shadow-dark {
-text-shadow: 4px 4px #a0929b;
+  text-shadow: 4px 4px #a0929b;
 }
 
 .text-shadow-dark-card {
@@ -46,30 +53,20 @@ text-shadow: 4px 4px #a0929b;
   border-style: double;
 }
 
-.item img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-height: 300px;
-}
-
-/* checked */
 .leftWhite {
   float: left;
   color: white;
 }
 
-/* checked */
 #textright {
   text-align: right;
 }
-/* NOT USED */
+
 #textcenter {
   text-align: center;
 }
 
 /* NOT USED */
-
 #full-flex {
   /*flex box that works with sticky footer*/
   margin: 0;
